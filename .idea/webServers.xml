@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="09df92a4-c4e6-4658-a559-c68be1f61c89" name="SummerNLP" url="http://lab.yiwise.com">
+        <fileTransfer host="lab.yiwise.com" port="60004" rootFolder="/home1/liyunzhe" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="60004" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
