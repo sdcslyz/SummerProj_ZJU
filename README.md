@@ -23,13 +23,13 @@ In the shortly one month practice, I start to be in the field of NLP, which is s
 
 
 
-###Algorithm Procedure
+### Algorithm Procedure
 
 
 
 The algorithm could be divided roughly into three parts, preprocessing, feature extraction and the final prediction. And the whole algorithm procedure flow chart is shown as the following figure shown.
 
-![](img\whole_procedure.png?imageMogr2/auto-orient/strip%7CimageView2/1/w/50)
+![](img\whole_procedure.png)
 
 And the details will be discussed in the following chapters.
 
