@@ -9,7 +9,8 @@
 >    + Shallow Semantic Feature
 >    + Deep Mining Feature
 > 5. Ensemable Classifier
-> 6. How to Run the Project
+> 6. Experiment Results
+> 7. How to Run the Project
 
 
 
@@ -96,6 +97,23 @@ In the last part, I use the ensemble learning method to improve the model's fitt
 ![](img/ense_learn.png)
 
 And the  ensemble model could perform better than the single model. Besides, to overcome the overfitting phenomenon, I add some restriction around the strong submodels, such like the SVM, which is short for support vector machine, that the maximum iteration times can not exceed 200 times. 
+
+
+### Experiment Results
+
+
+
+In this chapter, I will show you the result of the contrast experiment.  And the index of the estimation is accuracy, precision, recall and the F1- score.
+
+|      Method      |  Accuracy   |  Precision  |   Recall    |  F1-score   |
+| :--------------: | :---------: | :---------: | :---------: | :---------: |
+|  Only-Semantic   |   0.74545   |   0.60247   |   0.09648   |   0.16633   |
+| Only-Deep Mining |   0.81125   |   0.42587   |   0.52061   |   0.46850   |
+|  Non-attention   |   0.83633   |   0.48536   |   0.40259   |   0.44012   |
+|  **Synthesize**  | **0.83513** | **0.48207** | **0.44702** | **0.48288** |
+
+
+
 
 
 
